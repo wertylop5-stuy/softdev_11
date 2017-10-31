@@ -3,19 +3,18 @@ html {
 }
 
 h3 {
-	perspective: 300px;
+	font-size: 40px;
 }
 
 a {
-	color: rgba(0, 0, 255, 0.3);
+	border: 30px solid;
 }
 
 li {
-	padding: 40px;
+	padding: 10px;
 }
 
 p {
-	perspective: 300px;
 	animation: yay 3s infinite;
 }
 
@@ -26,6 +25,6 @@ p {
 
 @keyframes um {
 	from {background-color: red;}
-	to {background-color: purple;}
+	to {background-color: yellow;}
 }
 
