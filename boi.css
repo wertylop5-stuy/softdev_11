@@ -1,0 +1,31 @@
+html {
+	animation: um 0.5s infinite;
+}
+
+h3 {
+	perspective: 300px;
+}
+
+a {
+	color: rgba(0, 0, 255, 0.3);
+}
+
+li {
+	padding: 40px;
+}
+
+p {
+	perspective: 300px;
+	animation: yay 3s infinite;
+}
+
+@keyframes yay {
+	from {color: green;}
+	to {color: purple;}
+}
+
+@keyframes um {
+	from {background-color: red;}
+	to {background-color: purple;}
+}
+
