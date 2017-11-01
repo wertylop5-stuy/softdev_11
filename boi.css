@@ -1,5 +1,9 @@
-html {
+.extreme {
 	animation: um 0.5s infinite;
+}
+
+.navzone {
+	animation: movement 1s infinite;
 }
 
 h3 {
@@ -27,4 +31,10 @@ p {
 	from {background-color: red;}
 	to {background-color: yellow;}
 }
+
+@keyframes movement {
+	from {text-align: left;}
+	to {text-align: right;}
+}
+
 
