@@ -4,6 +4,16 @@
 
 .navzone {
 	animation: movement 1s infinite;
+	animation-direction: alternate;
+}
+
+.content {
+	perspective: 250px;
+	transform: rotateZ(45deg);
+}
+
+.prose {
+	transform: rotateX(45deg);
 }
 
 h3 {
@@ -24,16 +34,22 @@ p {
 
 @keyframes yay {
 	from {color: green;}
+	50% {color: red};
 	to {color: purple;}
 }
 
 @keyframes um {
 	from {background-color: red;}
-	to {background-color: yellow;}
+	20%  {background-color: orange;}
+	40%  {background-color: yellow;}
+	60%  {background-color: green;}
+	80%  {background-color: blue;}
+	to   {background-color: purple;}
 }
 
 @keyframes movement {
 	from {text-align: left;}
+	50% {text-align: center;}
 	to {text-align: right;}
 }
 
