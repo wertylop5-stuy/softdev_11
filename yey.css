@@ -13,13 +13,22 @@
 }
 
 .beans {
-	animation: rotation 0.0001s infinite;
+	animation: rotation 1s infinite;
 }
 
 .jif {
 	width: 400px;
 	height: 400px;
 	background-image: url("frog.gif");
+	animation: spin 1s infinite;
+}
+
+.spaz {
+	perspective: 250px;
+}
+
+.dude {
+	animation: spinY 2s infinite;
 }
 
 h3 {
@@ -36,10 +45,11 @@ li:hover {
 
 li {
 	padding: 10px;
+	list-style-image: url("kappa.jpg");
 }
 
 p {
-	animation: yay 3s infinite;
+	animation: yay 1s infinite;
 }
 
 @keyframes yay {
@@ -68,4 +78,12 @@ p {
 	to {transform: rotateX(360deg);}
 }
 
+@keyframes spin {
+	from {transform: rotateZ(0deg);}
+	to {transform: rotateZ(360deg);}
+}
 
+@keyframes spinY {
+	from {transform: rotateY(0deg);}
+	to {transform: rotateY(360deg);}
+}
