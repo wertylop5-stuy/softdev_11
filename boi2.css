@@ -9,11 +9,17 @@
 
 .cool {
 	perspective: 250px;
-	/*animation: rotation 1s infinite;*/
+	animation: movement 1s infinite;
 }
 
 .beans {
-	animation: rotation 1s infinite;
+	animation: rotation 0.0001s infinite;
+}
+
+.jif {
+	width: 400px;
+	height: 400px;
+	background-image: url("frog.gif");
 }
 
 h3 {
@@ -22,6 +28,10 @@ h3 {
 
 a {
 	border: 90px solid;
+}
+
+li:hover {
+	border: 300px solid;
 }
 
 li {
