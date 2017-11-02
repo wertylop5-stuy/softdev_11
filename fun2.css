@@ -1,0 +1,31 @@
+#tehlulz {
+	font-family: serif;
+	/*perspective: 200px;*/
+	transform: rotateZ(30deg);
+}
+
+h1 {
+	text-align: center;
+}
+
+h3 {
+	font-family: "monospace";
+}
+
+a {
+	color: rgba(255, 0, 255, 0.3);
+}
+
+li {
+	padding: 40px;
+}
+
+p {
+	background-color: cornflowerblue;
+}
+
+
+
+
+
+

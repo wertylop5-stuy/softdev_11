@@ -1,0 +1,61 @@
+.woah {
+	animation: um 0.3s infinite;
+}
+
+.man {
+	animation: movement 1s infinite;
+	animation-direction: alternate;
+}
+
+.cool {
+	perspective: 250px;
+	/*animation: rotation 1s infinite;*/
+}
+
+.beans {
+	animation: rotation 1s infinite;
+}
+
+h3 {
+	font-size: 40px;
+}
+
+a {
+	border: 90px solid;
+}
+
+li {
+	padding: 10px;
+}
+
+p {
+	animation: yay 3s infinite;
+}
+
+@keyframes yay {
+	from {color: green;}
+	50% {color: red};
+	to {color: purple;}
+}
+
+@keyframes um {
+	from {background-color: red;}
+	20%  {background-color: orange;}
+	40%  {background-color: yellow;}
+	60%  {background-color: green;}
+	80%  {background-color: blue;}
+	to   {background-color: purple;}
+}
+
+@keyframes movement {
+	from {transform: translateX(10px);}
+	50% {transform: translateY(50px);}
+	to {text-align: right;}
+}
+
+@keyframes rotation {
+	from {transform: rotateX(10deg);}
+	to {transform: rotateX(360deg);}
+}
+
+
